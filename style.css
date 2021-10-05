@@ -1,0 +1,67 @@
+.form{
+	width: 500px;
+	margin: 50px auto;
+	background-color: lightblue;
+	border: 5px solid black;
+}
+
+form{
+	margin: 20px;
+	padding: 5px;
+}
+
+form input[type=text]{
+	display: block;
+	width: 350px;
+	height: 20px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+
+	
+}
+
+form input:focus{
+	background-color: lightgoldenrodyellow;
+}
+
+form input[type=radio]{
+	margin-bottom: 30px;
+}
+
+form label{
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+select{
+	float: right;
+	width: 200px;
+	height: 20px;
+	margin-right: 100px;
+}
+p{
+	margin-bottom: 30px;
+}
+
+h3{
+	margin: 20px;
+	padding: 5px;
+	background: linear-gradient(to right, green, blue, hotpink);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    font-size: 5rem;
+}
+
+#link{
+	float: right;
+	background-color: darkblue;
+	color: white;
+	height: 30px;
+	width: 70px;
+
+}
+
+#link:hover{
+	background-color: blue;
+}

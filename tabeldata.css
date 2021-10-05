@@ -1,0 +1,19 @@
+table{
+	width: 100%;
+	text-align: center;
+}
+
+th{
+	border-bottom: 2px solid darkblue;
+	background-color: darkblue;
+	color: white;
+}
+
+td{
+	border-bottom: 1px solid darkblue;
+}
+
+td:hover{
+	background-color: lightgreen;
+	color: white;
+}
